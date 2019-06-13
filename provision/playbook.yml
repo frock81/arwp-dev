@@ -1,0 +1,9 @@
+---
+- hosts: all
+  # roles:
+  #   - role: geerlingguy.mysql
+  #   - role: geerlingguy.apache
+  #   - role: geerlingguy.php
+  #   - role: frock81.wordpress
+  tasks:
+    - debug: msg="Test message"
