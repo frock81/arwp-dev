@@ -2,3 +2,5 @@
 # For Geerlingguy.php with apache.
 php_packages:
   - libapache2-mod-php
+
+arwp_wpcli_version: 2.2.0
