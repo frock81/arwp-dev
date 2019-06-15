@@ -1,2 +1,2 @@
-[wp_host]
+[wp_server]
 wp17.local ansible_connection=local

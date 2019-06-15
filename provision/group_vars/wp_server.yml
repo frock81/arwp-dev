@@ -1,0 +1,4 @@
+---
+# For Geerlingguy.php with apache.
+php_packages:
+  - libapache2-mod-php
