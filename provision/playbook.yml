@@ -6,5 +6,6 @@
     - role: geerlingguy.apache
     - role: geerlingguy.php
     - role: frock81.arwp
+      tags: wordpress
   tasks:
     - debug: msg="Test message"
