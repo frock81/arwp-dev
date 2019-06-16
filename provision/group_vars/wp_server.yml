@@ -8,6 +8,12 @@ mysql_users:
     password: wordpress
     priv: '*.*:ALL'
 
+# # For Geerlingguy.apache.
+apache_remove_default_vhost: true
+apache_vhosts:
+  - servername: "wp17.local"
+    documentroot: /opt/wordpress
+
 # For Geerlingguy.php with apache.
 php_packages:
   - libapache2-mod-php
