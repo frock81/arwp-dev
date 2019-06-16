@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   config.ssh.insert_key = false
   config.ssh.private_key_path = "./insecure_private_key"
   config.vm.box = "ubuntu/xenial64"
-  config.vm.synced_folder "wordpress", "/var/www/html"
+  # config.vm.synced_folder "wordpress", "/opt/wordpress"
   config.vm.network "private_network", ip: "192.168.4.17"
 
   config.vm.provision "shell", inline: $set_environment_variables, run: "always"

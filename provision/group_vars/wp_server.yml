@@ -9,7 +9,6 @@ mysql_users:
     priv: '*.*:ALL'
 
 # # For Geerlingguy.apache.
-apache_remove_default_vhost: true
 apache_vhosts:
   - servername: "wp17.local"
     documentroot: /opt/wordpress
@@ -18,8 +17,8 @@ apache_vhosts:
 php_packages:
   - libapache2-mod-php
   - php-mysql
+  - php-apcu
 
-arwp_wpcli_version: 2.2.0
-arwp_wordpress_version: "5.1.1"
-arwp_wordpress_locale: pt_BR
 arwp_wpconfig_siteurl: http://wp17.local
+
+arwp_blog_download_creates: ""
