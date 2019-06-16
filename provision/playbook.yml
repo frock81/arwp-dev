@@ -5,7 +5,9 @@
     - role: geerlingguy.mysql
       tags: mysql
     - role: geerlingguy.apache
+      tags: apache
     - role: geerlingguy.php
+      tags: php
     - role: frock81.arwp
       tags: wordpress
   tasks:
