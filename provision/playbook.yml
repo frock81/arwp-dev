@@ -3,6 +3,7 @@
   become: yes
   roles:
     - role: geerlingguy.mysql
+      tags: mysql
     - role: geerlingguy.apache
     - role: geerlingguy.php
     - role: frock81.arwp

@@ -1,6 +1,18 @@
 ---
+# For Geerlingguy.mysql
+mysql_databases:
+  - name: wordpress
+mysql_users:
+  - name: wordpress
+    host: '%'
+    password: wordpress
+    priv: '*.*:ALL'
+
 # For Geerlingguy.php with apache.
 php_packages:
   - libapache2-mod-php
 
 arwp_wpcli_version: 2.2.0
+arwp_wordpress_version: "5.1.1"
+arwp_wordpress_locale: pt_BR
+arwp_wpconfig_siteurl: http://wp17.local
