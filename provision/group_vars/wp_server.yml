@@ -21,4 +21,5 @@ php_packages:
 
 arwp_wpconfig_siteurl: http://wp17.local
 
-arwp_blog_download_creates: ""
+# arwp_blog_download_creates: ""
+arwp_wordpress_version: "5.2.1"
