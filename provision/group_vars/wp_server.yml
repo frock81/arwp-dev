@@ -29,6 +29,6 @@ arwp_wpconfig_siteurl: http://wp17.local
 
 arwp_plugins:
   - slug: woocommerce
-    version: 3.6.3
+    version: 3.6.4
   - slug: wp-mail-smtp
     version: 1.4.2
